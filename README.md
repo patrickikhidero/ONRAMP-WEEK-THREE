@@ -6,7 +6,9 @@ Your challenge is to build out the card component in the utils/design folder and
 
 Check the wiki tab on git for the assessment workflow (a guide on how to setup git for version control on the project).
 
-Get colors, fonts etc from the style-guide.md file
+Get colors, fonts etc from the utils/style-guide.md file.
+
+All code should be written in the `/src` folder.
 
 Your users should be able to: 
 
