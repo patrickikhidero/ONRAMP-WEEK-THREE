@@ -5,8 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+    <section  class="row1">
+        <h2>TODO</h2> <svg xmlns="http://www.w3.org/2000/svg" class="moon" width="26" height="26"><path fill="#FFF" fill-rule="evenodd" d="M13 0c.81 0 1.603.074 2.373.216C10.593 1.199 7 5.43 7 10.5 7 16.299 11.701 21 17.5 21c2.996 0 5.7-1.255 7.613-3.268C23.22 22.572 18.51 26 13 26 5.82 26 0 20.18 0 13S5.82 0 13 0z"/></svg>
+        <div id="myDIV" class="header">
+            <input type="text" id="myInput" placeholder="Create a new todo.">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+            <li class="checked">Complete online JacaScript course</li>
+            <li>Jog around the park 3x</li>
+            <li>10 minutes meditation</li>
+            <li>Read for 1 hour</li>
+            <li>Pick up groceries</li>
+            <li>Complete Todo App on Frontend Mentor</li>
+            </ul>
+           <div class="active1">
+            <span><button class="actions">All</button><button class="actions">Active</button><button class="actions">Completed</button><button class="actions">Clear Completed</button></span>
+           </div>
+    </section>
+    <section class="row2">
+        <p>Drag and drop reorder list</p>
+
+    </section>
+</div>
+
+<script src="index.js"></script>
 </body>
 </html>
